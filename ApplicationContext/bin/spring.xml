@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+   <bean id="triangle" class="Triangle">
+   <constructor-arg type="java.lang.String" value="Equilateral"/>
+   <constructor-arg type="int" value="20"/>
+   
+   <!-- Notice we can use index so index 0 is type and index 1 is height 
+   <constructor-arg index="0" value="Equilateral"/>
+   <constructor-arg index="1" value="20"/>
+    -->
+   
+   </bean>
+</beans>
